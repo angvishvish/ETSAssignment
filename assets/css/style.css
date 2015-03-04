@@ -13,10 +13,17 @@ and open the template in the editor.
   padding: 0;
 }
 
-#addNodeButton {
+#addNodeButton{
+  background: url("../image/plus.png") no-repeat scroll 5px 8px #000000;
+  border: 0 none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #FFFFFF;
+  padding: 10px;
   position: absolute;
-  left: 45%;
+  right: 10px;
   top: 10px;
+  width: 150px;
 }
 
 .element_class{
@@ -29,21 +36,21 @@ and open the template in the editor.
 }
 
 .plus-image-class {
-  background: url("../assets/plus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("../image/plus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
   height: 19px;
-  left: -5px;
+  left: -8px;
   position: relative;
-  top: 15px;
+  top: 14px;
   width: 20px;
 }
 
 .minus-image-class {
-  background: url("../assets/minus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("../image/minus.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
   height: 19px;
-  left: -5px;
+  left: -8px;
   position: relative;
-  top: 15px;
+  top: 14px;
   width: 20px;
 }
